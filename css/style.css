@@ -1,0 +1,225 @@
+/* home css */
+ body {
+    background-image: url(../img/himmel.jpg);
+ }  
+
+.gg-adidas {
+    transform: scale(var(--ggs,6));
+    margin-bottom: auto;
+}
+
+.gg-adidas::before {
+    color: rgb(128, 74, 74);
+}
+/*überschrift*/
+h1 {
+    font-family: "Abyssinica SIL";
+    font-size: large;
+    padding: 20px;
+    color: rgb(128, 74, 74);
+    text-shadow: 1px 2px 6px;
+}
+
+
+.list ul li a {
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    position: relative;
+    left: 1200px;
+    bottom: 300px;
+}
+ .list ul li a:hover {
+    color: #704d4d;
+}
+/*left button*/
+
+.adidas .left ul li {
+    color: rgb(61, 67, 69);
+    padding: 10px 10px 10px 10px;
+    display: inline;
+    float: left;
+    text-decoration: none;
+    font-family: aakar;
+    font-size: x-large;
+}
+.adidas .left ul li a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px;
+    color: rgb(61, 67, 69);
+}
+
+.adidas .left ul li {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px;
+    color: rgb(61, 67, 69);
+}
+
+.left button {
+    background-color: #5c22455e;
+    border-radius: 80px;
+}
+
+.left button:hover {
+    background-color: rgb(128, 74, 74);
+}
+                                                        
+
+/*right button*/
+.adidas .right ul li {
+    display: inline;
+    /* font-family: fantasy; */
+    float: right; 
+}
+
+.adidas .right ul li a {
+    margin: 30px;
+    text-align: right;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px;
+    color: rgb(61, 67, 69);
+}
+
+.right button {
+    background-color: #5c22455e;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+.right button:hover {
+    background-color: rgb(128, 74, 74);
+}
+
+.modal-header{
+    background-color: #704d4d;
+    font-size: x-large;
+    font-family: "Bitstream Charter";
+}
+
+.modal-footer .btn btn-secondary {
+    background-color: #a77e7e;
+}
+.modal-body-about {
+    background-image: url("../img/grau.jpg");
+    color: aliceblue;
+    text-align: center;
+    font-family: aakar;
+    font-size: 20px;
+    text-shadow: 1px 2px 2px;
+}
+
+
+/*images*/
+.blacka {
+    margin-left: 40px;
+    padding: 50px 40px ;
+    border-style: ridge;
+    box-shadow: 10px 10px 8px #bb8571;
+    position: relative;
+    right: 200px;
+}
+  
+.blacka:hover {
+background-color: rgba(76, 76, 76, 0.649);
+}
+
+.ba {
+    margin-right: 40px;
+    border-style: ridge;
+    padding: 50px 40px ;
+    box-shadow: 10px 10px 8px #bb8571;
+    position: relative;
+    right: 80px;
+}
+
+.ba:hover {
+    background-color: rgba(76, 76, 76, 0.649);
+}
+    
+.orangea {
+    margin: 50px 50px 50px 300px;
+    padding: 50px 40px;
+    box-shadow: 10px 10px 8px #bb8571;
+    position: relative;
+    right: 250px;
+}
+
+.img .orangea {
+    border-style: ridge;
+}
+.orangea:hover {
+    background-color: rgba(76, 76, 76, 0.649);
+    position: center;
+    }
+
+.text-left {
+    position: relative;
+    right: 120px;
+    top: 20px;
+}
+
+#table1 {
+    position: relative;
+    right: 140px;
+    top: 20px;
+}
+
+.table {
+
+}
+
+#contact {
+    position: relative;
+    right: 140px;
+    top: 40px;
+}
+
+
+/*media*/
+.media {
+    font-size: 30px;
+    clear: both;
+    color: blueviolet;
+    position: relative;
+    left: 610px;
+    top: 10px;
+}
+
+ .navbar p a{
+     color: black;
+     text-decoration: none;
+     text-shadow: 1px 2px 2px;
+     position: relative;
+     left: 600px;
+     top: 10px;
+ }
+
+ .navbar p:hover a{
+    color: rgb(64, 61, 61);
+ }
+
+ .valuation {
+     color: black;
+     text-decoration: none;
+     position: relative;
+     left: 720px;
+     position: relative;
+     left: 575px;
+ }
+
+ .col-lg-6 {
+    background-color: rgb(128, 74, 74);
+
+ }
+
+ .chapters {
+    color: rgb(77, 62, 62);
+ }
